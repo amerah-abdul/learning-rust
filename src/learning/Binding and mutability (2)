@@ -1,0 +1,9 @@
+//2. Use mut to mark a variable as mutable
+
+fn main(){
+    let mut x:i32 = 1;
+    x = x + 2; //3
+
+    assert_eq!(x,3);
+    println!("Success!")
+}
